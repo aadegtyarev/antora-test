@@ -1,10 +1,10 @@
 name: current-devices
 title: Устройства
 version: current
-start_page: start-doc.adoc
+start_page: index.adoc
 asciidoc:
   attributes:
     source-language: asciidoc@
     table-caption: false
 nav:
-- modules/ROOT/nav.adoc
+- docs/nav.adoc
