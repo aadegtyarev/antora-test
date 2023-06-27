@@ -1,8 +1,7 @@
 = WB-MR6C v.2
-:imagesdir: ../images/
 
 [#purpose]
-image::wb-mr6c-v2-side.png[][alt=Реле,width=250,float="right"]
+image::../images/wb-mr6c-v2-side.png[][alt=Реле,width=250,float="right"]
 
 == Назначение
 
@@ -21,7 +20,7 @@ image::wb-mr6c-v2-side.png[][alt=Реле,width=250,float="right"]
 
 [format="csv",options="header"]
 |===================================================
-include::wb-mr6c-v2-tech.csv[]
+include::./wb-mr6c-v2-tech.csv[]
 |===================================================
 
 ====
@@ -30,7 +29,7 @@ include::wb-mr6c-v2-tech.csv[]
 == Общий принцип работы
 
 === Индикация
-image::wb-mr6c-v2-indicators.gif[][alt=Реле,width=150,float="right"]
+image::../images/wb-mr6c-v2-indicators.gif[][alt=Реле,width=150,float="right"]
 
 В модуле есть индикаторы, которые помогут определить его состояние без подключения к контроллеру:
 
@@ -80,7 +79,7 @@ Description about Title B
 --
 ====
 
-image::contacts.png[][alt=Реле,width=300,float="right"]
+image::../images/contacts.png[][alt=Реле,width=300,float="right"]
 
 Внутри установлены 6 реле Hongfa HF32FV-16 с нормально открытыми контактами. Выходы объединены в две группы, каждая со своим общим проводом: COM1 и COM2. На выходы COM1 и COM2 можно подключить разные фазы. Допустимую мощность и тип коммутируемой нагрузки смотреть в статье Рекомендации по выбору реле.
 
