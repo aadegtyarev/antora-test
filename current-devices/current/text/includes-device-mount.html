@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: Wiren Board Docs</title>
+    <link rel="canonical" href="https://docs.demo.com/current-devices/current/text/includes-device-mount.html">
+    <meta name="generator" content="Antora 3.1.4">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://docs.demo.com">Wiren Board Docs</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="current-devices" data-version="current">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">Устройства</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../index.html">Первая страница документации</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Реле</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="wb-mr6c-v2.html">WB-MR6C v.2</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Устройства</span>
+    <span class="version">current</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">Устройства</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">current</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+</nav>
+<div class="edit-this-page"><a href="https://github.com/aadegtyarev/antora-test/edit/main/modules/ROOT/pages/text/includes-device-mount.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="paragraph">
+<p>Устройство монтируется на стандартную DIN-рейку шириной 35 мм. Клеммный блок «V+ GND A B» с шагом 3.5 мм служит для подключения питания и управления по шине RS-485. Для стабильной связи с устройством важно правильно организовать подключение к шине RS-485, читайте об этом в статье RS-485:Физическое подключение.</p>
+</div>
+<div class="imageblock right unresolved">
+<div class="content">
+<img src="device-mount.jpg" alt="][alt=Как обжимать наконечники НШВИ" width="300">
+</div>
+</div>
+<div class="paragraph">
+<p>Рекомендуем для монтажа использовать гибкие многожильные провода с обжатием концов втулочными наконечниками (НШВИ — наконечник штыревой втулочный изолированный).</p>
+</div>
+<div class="paragraph">
+<p>При снятии изоляции провод должен зачищаться ровно по длине гильзы (можно зачистить больше, а потом откусить выступающий излишек). Для обжима (опрессовывания) используйте пресс-клещи (кримпер, «обжимка»). При монтаже обжатый наконечником провод не разрушается винтовым зажимом и надежно фиксируется.</p>
+</div>
+<div class="paragraph">
+<p>Не прикладывайте чрезмерное усилие при завинчивании клеммы — это приводит к разрушению винтового разъема.</p>
+</div>
+<div class="paragraph">
+<p>При включении реле модуль импульсно потребляет большую мощность (см. потребление). Используйте блок питания с запасом по мощности. При питании по длинному кабелю учитывайте падение напряжения на нем.</p>
+</div>
+<div class="paragraph">
+<p>Срабатывание дискретных входов происходит при их замыкании на землю iGND. Возникающий ток невелик (~2 мА), так что тип кнопки или выключателя может быть любым. Также не играет роли длина и сечение кабеля. Но для предотвращения наводок от близко расположенных силовых линий лучше использовать витую пару и подключать землю iGND ко второй жиле пары. Подробнее про подключение клемм iGND смотрите в инструкции.</p>
+</div>
+<div class="paragraph">
+<p>Сечение проводов, подключаемых к винтовым зажимам выходов реле, должно соответствовать мощности коммутируемой нагрузки. Винтовые зажимы принимают провод сечением 2.5–4 мм2. Выбрать правильное сечение провода для подключения нагрузки поможет таблица Допустимый длительный ток для проводов и шнуров.</p>
+</div>
+<div class="paragraph">
+<p>Модуль реле необходимо устанавливать таким образом, чтобы удовлетворять требованиям электробезопасности и не допускать случайного касания контактов, находящихся под высоким напряжением. Устройство должно эксплуатироваться при рекомендованных условиях окружающей среды.</p>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
