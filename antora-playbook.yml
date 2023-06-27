@@ -1,0 +1,12 @@
+site:
+  title: Wiren Board Docs
+  url: https://docs.demo.com
+  start_page: current-devices::index.adoc
+content:
+  sources:
+  - url: https://github.com/aadegtyarev/antora-test.git
+    branches: HEAD
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
